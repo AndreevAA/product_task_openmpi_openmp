@@ -36,13 +36,14 @@ int main() {
 
     int left = 200;
     int right = 20000;
-    int num_products_list[30];
+    int num_products_list[50];
     int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8}; // Процессы для тестирования
     int num_products_count = 0;
 
     int step = (right - left) / 20;
     while (left <= right) {
-        num_products_list[num_products_count++] = left;
+        num_products_list[num_products_count] = left;
+	num_products_count += 1;
         left += step;
     }
 

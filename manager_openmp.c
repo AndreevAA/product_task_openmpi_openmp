@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <time.h>
-#include "/usr/local/opt/libomp/include/omp.h"
-
+// #include "/usr/local/opt/libomp/include/omp.h"
+#include <omp.h>
 
 void run_experiment(int *num_products_list, int num_products_count, int *num_processes_list, int num_processes_count) {
     FILE *result_file = fopen("experiment_results_openmp.txt", "w");
@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
     int left = 200;
     int right = 20000;
     int num_products_list[30];
-    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8}; // Процессы для тестирования
+    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}; // Процессы для тестирования
     int num_products_count = 0;
 
     int step = (right - left) / 20;

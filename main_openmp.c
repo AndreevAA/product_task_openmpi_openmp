@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <limits.h>
-#include "/usr/local/opt/libomp/include/omp.h"
-
+// #include "/usr/local/opt/libomp/include/omp.h"
+#include <omp.h>
 
 #define INF INT_MAX
 
