@@ -1,0 +1,69 @@
+[node-1:14129] *** Process received signal ***
+[node-1:14129] Signal: Segmentation fault (11)
+[node-1:14129] Signal code: Address not mapped (1)
+[node-1:14129] Failing at address: 0x7fffdddeb9e0
+[node-1:14129] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f68bb40ff10]
+[node-1:14129] [ 1] ./main_openmp(+0x10dd)[0x55b82457f0dd]
+[node-1:14129] [ 2] ./main_openmp(+0x12e6)[0x55b82457f2e6]
+[node-1:14129] [ 3] ./main_openmp(+0x1631)[0x55b82457f631]
+[node-1:14129] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f68bb3f2c87]
+[node-1:14129] [ 5] ./main_openmp(+0xb1a)[0x55b82457eb1a]
+[node-1:14129] *** End of error message ***
+[node-6:00304] *** Process received signal ***
+[node-6:00304] Signal: Segmentation fault (11)
+[node-6:00304] Signal code: Address not mapped (1)
+[node-6:00304] Failing at address: 0x7fff0255fac0
+[node-6:00304] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f9b4506cf10]
+[node-6:00304] [ 1] ./main_openmp(+0x10dd)[0x55bf231fb0dd]
+[node-6:00304] [ 2] ./main_openmp(+0x12e6)[0x55bf231fb2e6]
+[node-6:00304] [ 3] ./main_openmp(+0x1631)[0x55bf231fb631]
+[node-6:00304] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9b4504fc87]
+[node-6:00304] [ 5] ./main_openmp(+0xb1a)[0x55bf231fab1a]
+[node-6:00304] *** End of error message ***
+[node-2:31226] *** Process received signal ***
+[node-2:31226] Signal: Segmentation fault (11)
+[node-2:31226] Signal code:  (128)
+[node-2:31226] Failing at address: (nil)
+[node-2:31226] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fd21d86af10]
+[node-2:31226] [ 1] ./main_openmp(+0x10dd)[0x55a704ce80dd]
+[node-2:31226] [ 2] ./main_openmp[node-5:13534] *** Process received signal ***
+[node-5:13534] Signal: Segmentation fault (11)
+[node-5:13534] Signal code: Address not mapped (1)
+[node-5:13534] Failing at address: 0x7ffcdebf2be0
+[node-3:20100] *** Process received signal ***
+[node-3:20100] Signal: Segmentation fault (11)
+[node-3:20100] Signal code:  (128)
+[node-3:20100] Failing at address: (nil)
+(+0x12e6)[0x55a704ce82e6]
+[node-2:31226] [ 3] ./main_openmp(+0x1631)[0x55a704ce8631]
+[node-2:31226] [ 4] [node-4:05682] *** Process received signal ***
+[node-4:05682] Signal: Segmentation fault (11)
+[node-4:05682] Signal code: Address not mapped (1)
+[node-4:05682] Failing at address: 0x7ffd55a34bf0
+[node-5:13534] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f456d8a9f10]
+[node-3:20100] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f59dde6df10]
+[node-3:20100] [ 1] ./main_openmp(+0x10dd)/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd21d84dc87]
+[node-2:31226] [ 5] ./main_openmp(+0xb1a)[0x55a704ce7b1a]
+[node-4:05682] [ 0] [node-5:13534] [ 1] ./main_openmp(+0x10dd)[0x55f5132be0dd]
+[node-5:13534] [ 2] ./main_openmp(+0x12e6)[0x55f5132be2e6]
+[node-5:13534] [ 3] [0x56066136a0dd]
+[node-3:20100] [ 2] ./main_openmp(+0x12e6)[0x56066136a2e6]
+[node-3:20100] [ 3] ./main_openmp(+0x[node-2:31226] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f5a6f47af10]
+[node-4:05682] [ 1] ./main_openmp(+0x10dd)[0x5607ecef80dd]
+[node-4:05682] ./main_openmp(+0x1631)[0x55f5132be631]
+[node-5:13534] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f456d88cc87]
+[node-5:13534] [ 5] ./main_openmp(+0xb1a)[0x55f5132bdb1a]
+1631)[0x56066136a631]
+[node-3:20100] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f59dde50c87]
+[node-3:20100] [ 5] ./main_openmp(+0xb1a)[0x560661369b1a]
+[node-3:20100] *** End of error message ***
+[ 2] ./main_openmp(+0x12e6)[0x5607ecef82e6]
+[node-4:05682] [ 3] ./main_openmp(+0x1631)[0x5607ecef8631]
+[node-4:05682] [node-5:13534] *** End of error message ***
+[ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5a6f45dc87]
+[node-4:05682] [ 5] ./main_openmp(+0xb1a)[0x5607ecef7b1a]
+[node-4:05682] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 5 with PID 304 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

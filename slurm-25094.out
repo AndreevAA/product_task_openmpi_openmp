@@ -1,0 +1,14 @@
+[node-9:03331] *** Process received signal ***
+[node-9:03331] Signal: Segmentation fault (11)
+[node-9:03331] Signal code: Address not mapped (1)
+[node-9:03331] Failing at address: 0x7fff070f7950
+[node-9:03331] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ff7f4b0ff10]
+[node-9:03331] [ 1] ./main(+0x10ad)[0x55e11e9240ad]
+[node-9:03331] [ 2] ./main(+0x12b6)[0x55e11e9242b6]
+[node-9:03331] [ 3] ./main(+0x1601)[0x55e11e924601]
+[node-9:03331] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff7f4af2c87]
+[node-9:03331] [ 5] ./main(+0xb1a)[0x55e11e923b1a]
+[node-9:03331] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 3331 on node node-9 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+[node-8:24825] *** Process received signal ***
+[node-8:24825] Signal: Segmentation fault (11)
+[node-8:24825] Signal code: Address not mapped (1)
+[node-8:24825] Failing at address: 0x7ffd9ccbc420
+[node-8:24825] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f029de72f10]
+[node-8:24825] [ 1] ./main(+0x10ad)[0x5589f05350ad]
+[node-8:24825] [ 2] ./main(+0x12b6)[0x5589f05352b6]
+[node-8:24825] [ 3] ./main(+0x1601)[0x5589f0535601]
+[node-8:24825] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f029de55c87]
+[node-8:24825] [ 5] ./main(+0xb1a)[0x5589f0534b1a]
+[node-8:24825] *** End of error message ***
+[node-9:06918] *** Process received signal ***
+[node-9:06918] Signal: Segmentation fault (11)
+[node-9:06918] Signal code: Address not mapped (1)
+[node-9:06918] Failing at address: 0x7ffcce5ef440
+[node-9:06918] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f926d8fdf10]
+[node-9:06918] [ 1] ./main(+0x10ad)[0x55b2d2ce90ad]
+[node-9:06918] [ 2] ./main(+0x12b6)[0x55b2d2ce92b6]
+[node-9:06918] [ 3] ./main(+0x1601)[0x55b2d2ce9601]
+[node-9:06918] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f926d8e0c87]
+[node-9:06918] [ 5] ./main(+0xb1a)[0x55b2d2ce8b1a]
+[node-9:06918] *** End of error message ***
+[node-10:21394] *** Process received signal ***
+[node-10:21394] Signal: Segmentation fault (11)
+[node-10:21394] Signal code: Address not mapped (1)
+[node-10:21394] Failing at address: 0x7ffe5f2d91f0
+[node-10:21394] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb8a2d87f10]
+[node-10:21394] [ 1] ./main(+0x10ad)[0x5574649010ad]
+[node-10:21394] [ 2] ./main(+0x12b6)[0x5574649012b6]
+[node-10:21394] [ 3] ./main(+0x1601)[0x557464901601]
+[node-10:21394] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb8a2d6ac87]
+[node-10:21394] [ 5] ./main(+0xb1a)[0x557464900b1a]
+[node-10:21394] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-8 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

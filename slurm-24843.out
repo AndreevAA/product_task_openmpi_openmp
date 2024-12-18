@@ -1,0 +1,69 @@
+[node-1:12925] *** Process received signal ***
+[node-1:12925] Signal: Segmentation fault (11)
+[node-1:12925] Signal code: Address not mapped (1)
+[node-1:12925] Failing at address: 0x7ffd0377d730
+[node-1:12925] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8b13638f10]
+[node-1:12925] [ 1] ./main_openmp(+0x10dd)[0x561302a750dd]
+[node-1:12925] [ 2] ./main_openmp(+0x12e6)[0x561302a752e6]
+[node-1:12925] [ 3] ./main_openmp(+0x1631)[0x561302a75631]
+[node-1:12925] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8b1361bc87]
+[node-1:12925] [ 5] ./main_openmp(+0xb1a)[0x561302a74b1a]
+[node-1:12925] *** End of error message ***
+[node-2:30039] *** Process received signal ***
+[node-2:30039] Signal: Segmentation fault (11)
+[node-2:30039] Signal code: Address not mapped (1)
+[node-2:30039] Failing at address: 0x7ffeb18251b0
+[node-3:19044] *** Process received signal ***
+[node-3:19044] Signal: Segmentation fault (11)
+[node-3:19044] Signal code: Address not mapped (1)
+[node-3:19044] Failing at address: 0x7ffd124c3e50
+[node-6:31729] *** Process received signal ***
+[node-6:31729] Signal: Segmentation fault (11)
+[node-6:31729] Signal code: Address not mapped (1)
+[node-6:31729] Failing at address: 0x7ffde3886480
+[node-6:31729] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8a58a32f10]
+[node-6:31729] [ 1] ./main_openmp(+0x10dd)[0x5564a1cd60dd]
+[node-6:31729] [ 2] ./main_openmp(+0x12e6)[0x5564a1cd62e6]
+[node-6:31729] [ 3] ./main_openmp(+0x1631)[0x5564a1cd6631]
+[node-6:31729] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8a58a15c87]
+[node-6:31729] [ 5] ./main_openmp(+0xb1a)[0x5564a1cd5b1a]
+[node-6:31729] *** End of error message ***
+[node-2:30039] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f5500d46f10]
+[node-2:30039] [ 1] ./main_openmp(+0x10dd)[0x55e30371e0dd[node-4:04490] *** Process received signal ***
+[node-4:04490] Signal: Segmentation fault (11)
+[node-4:04490] Signal code: Address not mapped (1)
+[node-4:04490] Failing at address: 0x7fffb66a2fb0
+[node-3:19044] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f488b557f10]
+[node-3:19044] [ 1] ./main_openmp(+0x10dd)[0x55fb715fe0dd]
+[node-3:19044] [ 2] ./main_openmp(+0x12e6)[0x55fb715fe2e6]
+[node-3:19044] [ 3] ./main_openmp(+0x1631)[0x55fb715fe631]
+[node-3:19044] ]
+[node-2:30039] [ 2] [node-4:04490] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fcbf43cbf10]
+[node-4:04490] [ 1] ./main_openmp(+0x10dd)[0x56038bac10dd]
+[node-5:12322] *** Process received signal ***
+[node-5:12322] Signal: Segmentation fault (11)
+[node-5:12322] Signal code: Address not mapped (1)
+[node-5:12322] Failing at address: 0x7fff1ce47ab0
+[ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f488b53ac87]
+[node-3:19044] [ 5] ./main_openmp(+0xb1a)[0x55fb715fdb1a]
+[node-3:19044] *** End of error message ***
+./main_openmp(+0x12e6)[0x55e30371e2e6]
+[node-2:30039] [ 3] ./main_openmp(+0x1631)[node-4:04490] [ 2] ./main_openmp(+0x12e6)[0x56038bac12e6]
+[node-4:04490] [ 3] ./main_openmp(+0x1631)[0x56038bac1631]
+[node-4:04490] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fcbf43aec87]
+[node-4:04490] [ 5] ./main_openmp(+0xb1a[node-5:12322] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f9c3e190f10]
+[node-5:12322] [ 1] ./main_openmp(+0x10dd)[0x564f3390a0dd]
+[node-5:12322] [0x55e30371e631]
+[node-2:30039] [ 4] )[0x56038bac0b1a]
+[node-4:04490] *** End of error message ***
+[ 2] ./main_openmp(+0x12e6)[0x564f3390a2e6]
+[node-5:12322] [ 3] ./main_openmp(+0x1631/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f5500d29c87]
+[node-2:30039] [ 5] ./main_openmp(+0xb1a)[0x55e30371db1a]
+[node-2:30039] *** End of error message ***
+)[0x564f3390a631]
+[node-5:12322] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9c3e173c87]
+[node-5:12322] [ 5] ./main_openmp(+0xb1a)[0x564f33909b1a]
+[node-5:12322] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+[node-4:09233] *** Process received signal ***
+[node-4:09233] Signal: Segmentation fault (11)
+[node-4:09233] Signal code: Address not mapped (1)
+[node-4:09233] Failing at address: 0x7fff98a33bc0
+[node-6:03368] *** Process received signal ***
+[node-6:03368] Signal: Segmentation fault (11)
+[node-6:03368] Signal code: Address not mapped (1)
+[node-6:03368] Failing at address: 0x7ffedbf35970
+[node-7:25675] *** Process received signal ***
+[node-7:25675] Signal: Segmentation fault (11)
+[node-7:25675] Signal code: Address not mapped (1)
+[node-7:25675] Failing at address: 0x7fff15966300
+[node-5:16970] *** Process received signal ***
+[node-5:16970] Signal: Segmentation fault (11)
+[node-5:16970] Signal code: Address not mapped (1)
+[node-5:16970] Failing at address: 0x7ffea2a97ab0
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 3368 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

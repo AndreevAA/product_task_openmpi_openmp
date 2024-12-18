@@ -1,0 +1,69 @@
+[node-1:13379] *** Process received signal ***
+[node-1:13379] Signal: Segmentation fault (11)
+[node-1:13379] Signal code: Address not mapped (1)
+[node-1:13379] Failing at address: 0x7ffe53c07570
+[node-1:13379] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ff034a54f10]
+[node-1:13379] [ 1] ./main_openmp(+0x10dd)[0x55e30042f0dd]
+[node-1:13379] [ 2] ./main_openmp(+0x12e6)[0x55e30042f2e6]
+[node-1:13379] [ 3] ./main_openmp(+0x1631)[0x55e30042f631]
+[node-1:13379] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff034a37c87]
+[node-1:13379] [ 5] ./main_openmp(+0xb1a)[0x55e30042eb1a]
+[node-1:13379] *** End of error message ***
+[node-6:32210] *** Process received signal ***
+[node-6:32210] Signal: Segmentation fault (11)
+[node-6:32210] Signal code: Address not mapped (1)
+[node-6:32210] Failing at address: 0x7ffe160262f0
+[node-6:32210] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f6caa44ff10]
+[node-6:32210] [ 1] ./main_openmp(+0x10dd)[0x55e5956a50dd]
+[node-6:32210] [ 2] ./main_openmp(+0x12e6)[0x55e5956a52e6]
+[node-6:32210] [ 3] ./main_openmp(+0x1631)[0x55e5956a5631]
+[node-6:32210] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6caa432c87]
+[node-6:32210] [ 5] ./main_openmp(+0xb1a)[0x55e5956a4b1a]
+[node-6:32210] *** End of error message ***
+[node-2:30482] *** Process received signal ***
+[node-2:30482] Signal: Segmentation fault (11)
+[node-2:30482] Signal code: Address not mapped (1)
+[node-2:30482] Failing at address: 0x7ffd5b882e10
+[node-2:30482] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fc796fcff10[node-4:04993] *** Process received signal ***
+[node-4:04993] Signal: Segmentation fault (11)
+[node-4:04993] Signal code:  (128)
+[node-4:04993] Failing at address: (nil)
+[node-3:19422] *** Process received signal ***
+[node-3:19422] Signal: Segmentation fault (11)
+[node-3:19422] Signal code: Address not mapped (1)
+[node-3:19422] Failing at address: 0x7ffd08a124b0
+]
+[node-2:30482] [ 1] ./main_openmp(+0x10dd[node-3:19422] [ 0] )[0x55b8dd1270dd]
+[node-2:30482] [ 2] ./main_openmp(+0x12e6)[0x55b8dd1272e6]
+[node-2:30482] [ 3] ./main_openmp(+0x1631)[0x55b8dd127631]
+[node-2:30482] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb1d3dbdf10]
+[node-3:19422] [ 1] ./main_openmp(+0x10dd)[0x5576d4d720dd]
+[node-3:19422] [ 2] ./main_openmp(+0x12e6)[0x5576d4d722e6]
+[node-3:19422] [ 3] ./main_openmp(+0x1631)[0x5576d4d72631]
+[node-3:19422] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb1d3da0c87]
+[node-3:19422] [ 5] ./main_openmp(+0xb1a)[0x/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fc796fb2c87]
+[node-2:30482] [ 5] ./main_openmp(+0xb1a)[0x55b8dd126b1a]
+[node-2:30482] *** End of error message ***
+5576d4d71b1a]
+[node-3:19422] *** End of error message ***
+[node-4:04993] [ 0] [node-5:12836] *** Process received signal ***
+[node-5:12836] Signal: Segmentation fault (11)
+[node-5:12836] Signal code: Address not mapped (1)
+[node-5:12836] Failing at address: 0x7ffe4cf44a00
+[node-5:12836] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f11f2a26f10]
+[node-5:12836] [ 1] ./main_openmp(/lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f90a5aeff10]
+[node-4:04993] [ 1] ./main_openmp(+0x10dd)[0x561c7e0e70dd]
+[node-4:04993] [ 2] ./main_openmp(+0x12e6)[0x561c7e0e72e6]
+[node-4:04993] [ 3] ./main_openmp(+0x1631)[0x561c7e0e7631]
+[node-4:04993] [ 4] +0x10dd)[0x562176a760dd]
+[node-5:12836] [ 2] ./main_openmp(+0x12e6)[0x562176a762e6/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f90a5ad2c87]
+[node-4:04993] [ 5] ./main_openmp(+0xb1a)[0x561c7e0e6b1a]
+[node-4:04993] *** End of error message ***
+]
+[node-5:12836] [ 3] ./main_openmp(+0x1631)[0x562176a76631]
+[node-5:12836] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f11f2a09c87]
+[node-5:12836] [ 5] ./main_openmp(+0xb1a)[0x562176a75b1a]
+[node-5:12836] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

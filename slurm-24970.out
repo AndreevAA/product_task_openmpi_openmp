@@ -1,0 +1,58 @@
+[node-1:16690] *** Process received signal ***
+[node-1:16690] Signal: Segmentation fault (11)
+[node-1:16690] Signal code: Address not mapped (1)
+[node-1:16690] Failing at address: 0x7ffc21fbdf20
+[node-1:16690] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f7c5f6a3f10]
+[node-1:16690] [ 1] ./main(+0x10ad)[0x5614956ba0ad]
+[node-1:16690] [ 2] ./main(+0x12b6)[0x5614956ba2b6]
+[node-1:16690] [ 3] ./main(+0x1601)[0x5614956ba601]
+[node-1:16690] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7c5f686c87]
+[node-1:16690] [ 5] ./main(+0xb1a)[0x5614956b9b1a]
+[node-1:16690] *** End of error message ***
+[node-3:22454] *** Process received signal ***
+[node-3:22454] Signal: Segmentation fault (11)
+[node-3:22454] Signal code: Address not mapped (1)
+[node-3:22454] Failing at address: 0x7ffbb9d766e0
+[node-2:01413] *** Process received signal ***
+[node-2:01413] Signal: Segmentation fault (11)
+[node-2:01413] Signal code: Address not mapped (1)
+[node-2:01413] Failing at address: 0x7ffacf2a0b70
+[node-3:22454] [ 0] [node-2:01413] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f1318cecf10]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fd7f89eaf10]
+[node-3:22454] [ 1] ./main(+0x10ad)[0x55c4ae24d0ad]
+[node-2:01413] [ 1] ./main(+0x10ad)[0x5642462830ad]
+[node-2:01413] [ 2] ./main(+0x12b6)[0x5642462832b6]
+[node-2:01413] [ 3] ./main(+0x1601)[0x564246283601]
+[node-2:01413] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1318ccfc87]
+[node-2:01413] [ 5] ./main(+0xb1a)[0x564246282b1a]
+[node-3:22454] [ 2] ./main(+0x12b6)[0x55c4ae24d2b6]
+[node-3:22454] [ 3] ./main(+0x1601)[node-2:01413] *** End of error message ***
+[0x55c4ae24d601]
+[node-3:22454] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd7f89cdc87]
+[node-3:22454] [ 5] ./main(+0xb1a)[0x55c4ae24cb1a]
+[node-3:22454] *** End of error message ***
+[node-9:01769] *** Process received signal ***
+[node-9:01769] Signal: Segmentation fault (11)
+[node-9:01769] Signal code: Address not mapped (1)
+[node-9:01769] Failing at address: 0x7ffc71b49690
+[node-8:19653] *** Process received signal ***
+[node-8:19653] Signal: Segmentation fault (11)
+[node-8:19653] Signal code: Address not mapped (1)
+[node-8:19653] Failing at address: 0x7ffd0b42b400
+[node-9:01769] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ff3df0e1f10]
+[node-9:01769] [ 1] ./main(+0x10ad)[0x56199276b0ad]
+[node-9:01769] [ 2] ./main(+0x12b6)[0x56199276b2b6]
+[node-9:01769] [ 3] ./main(+0x1601)[0x56199276b601]
+[node-9:01769] [ 4] [node-8:19653] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fe0534a5f10]
+[node-8:19653] [ 1] ./main(+0x10ad)[0x557e04d030ad]
+[node-8:19653] [ 2] ./main(+0x12b6)[0x557e04d032b6]
+[node-8:19653] [ 3] ./main(+0x1601)[0x557e04d03601]
+[node-8:19653] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff3df0c4c87]
+[node-9:01769] [ 5] ./main(+0xb1a)[0x56199276ab1a]
+[node-9:01769] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fe053488c87]
+[node-8:19653] [ 5] ./main(+0xb1a)[0x557e04d02b1a]
+[node-8:19653] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

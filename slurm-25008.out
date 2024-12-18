@@ -1,0 +1,36 @@
+[node-1:17762] *** Process received signal ***
+[node-1:17762] Signal: Segmentation fault (11)
+[node-1:17762] Signal code: Address not mapped (1)
+[node-1:17762] Failing at address: 0x7ffe5e881f20
+[node-1:17762] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f11459a1f10]
+[node-1:17762] [ 1] ./main_openmp(+0x10dd)[0x563e9afa30dd]
+[node-1:17762] [ 2] ./main_openmp(+0x12e6)[0x563e9afa32e6]
+[node-1:17762] [ 3] ./main_openmp(+0x1631)[0x563e9afa3631]
+[node-1:17762] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1145984c87]
+[node-1:17762] [ 5] ./main_openmp(+0xb1a)[0x563e9afa2b1a]
+[node-1:17762] *** End of error message ***
+[node-3:23340] *** Process received signal ***
+[node-3:23340] Signal: Segmentation fault (11)
+[node-3:23340] Signal code: Address not mapped (1)
+[node-3:23340] Failing at address: 0x7ffd8212fd90
+[node-2:02439] *** Process received signal ***
+[node-2:02439] Signal: Segmentation fault (11)
+[node-2:02439] Signal code: Address not mapped (1)
+[node-2:02439] Failing at address: 0x7ffafe291900
+[node-2:02439] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f26a10fbf10]
+[node-3:23340] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb8011b1f10]
+[node-3:23340] [ 1] ./main_openmp(+0x[node-2:02439] [ 1] ./main_openmp(+0x10dd)[0x555aa221b0dd]
+[node-2:02439] [ 2] ./main_openmp(+0x12e6)[0x555aa221b2e6]
+[node-2:02439] [ 3] ./main_openmp(+0x1631)[0x555aa221b631]
+[node-2:02439] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f26a10dec87]
+[node-2:02439] [ 5] ./main_openmp(+0xb1a)[0x555aa221ab1a]
+[node-2:02439] *** End of error message ***
+10dd)[0x5591bba7f0dd]
+[node-3:23340] [ 2] ./main_openmp(+0x12e6)[0x5591bba7f2e6]
+[node-3:23340] [ 3] ./main_openmp(+0x1631)[0x5591bba7f631]
+[node-3:23340] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb801194c87]
+[node-3:23340] [ 5] ./main_openmp(+0xb1a)[0x5591bba7eb1a]
+[node-3:23340] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

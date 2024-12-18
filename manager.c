@@ -40,7 +40,7 @@ void run_experiment(int *num_products_list, int num_products_count, int *num_pro
 
     for (int i = 0; i < num_products_count; i++) {
         int num_products = num_products_list[i];
-        char input_file[50];
+        char input_file[30];
         snprintf(input_file, sizeof(input_file), "input_%d.txt", num_products);
         // generate_input_file(input_file, num_products, 10, 20); // Генерация файла
 
@@ -75,12 +75,12 @@ int main(int argc, char **argv) {
     srand(time(NULL) + MPI_Wtime());
 
     int left = 200;
-    int right = 20000;
-    int num_products_list[50];
-    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}; // Процессы для тестирования
+    int right = 200000;
+    int num_products_list[30];
+    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8}; // Процессы для тестирования
     int num_products_count = 0;
 
-    int step = (right - left) / 20;
+    int step = (right - left) / 10;
     while (left <= right) {
         num_products_list[num_products_count++] = left;
         left += step;

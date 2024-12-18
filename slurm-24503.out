@@ -1,0 +1,36 @@
+[node-5:03443] *** Process received signal ***
+[node-5:03443] Signal: Segmentation fault (11)
+[node-5:03443] Signal code:  (128)
+[node-5:03443] Failing at address: (nil)
+[node-5:03443] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f86c81adf10]
+[node-5:03443] [ 1] ./main(+0x10ad)[0x5590606e20ad]
+[node-5:03443] [ 2] ./main(+0x12b6)[0x5590606e22b6]
+[node-5:03443] [ 3] ./main(+0x1601)[0x5590606e2601]
+[node-5:03443] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f86c8190c87]
+[node-5:03443] [ 5] ./main(+0xb1a)[0x5590606e1b1a]
+[node-5:03443] *** End of error message ***
+[node-6:23910] *** Process received signal ***
+[node-6:23910] Signal: Segmentation fault (11)
+[node-6:23910] Signal code:  (128)
+[node-6:23910] Failing at address: (nil)
+[node-6:23910] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f86f0365f10]
+[node-6:23910] [ 1] ./main(+0x10ad)[0x5606a63720ad]
+[node-6:23910] [ 2] ./main(+0x12b6)[0x5606a63722b6]
+[node-6:23910] [ 3] ./main(+0x1601)[0x5606a6372601]
+[node-6:23910] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f86f0348c87]
+[node-6:23910] [ 5] ./main(+0xb1a)[0x5606a6371b1a]
+[node-6:23910] *** End of error message ***
+[node-7:14729] *** Process received signal ***
+[node-7:14729] Signal: Segmentation fault (11)
+[node-7:14729] Signal code: Address not mapped (1)
+[node-7:14729] Failing at address: 0x7ffff14e2520
+[node-7:14729] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f12eb527f10]
+[node-7:14729] [ 1] ./main(+0x10ad)[0x562b4fe5f0ad]
+[node-7:14729] [ 2] ./main(+0x12b6)[0x562b4fe5f2b6]
+[node-7:14729] [ 3] ./main(+0x1601)[0x562b4fe5f601]
+[node-7:14729] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f12eb50ac87]
+[node-7:14729] [ 5] ./main(+0xb1a)[0x562b4fe5eb1a]
+[node-7:14729] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 23910 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

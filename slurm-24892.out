@@ -1,0 +1,80 @@
+[node-1:14415] *** Process received signal ***
+[node-1:14415] Signal: Segmentation fault (11)
+[node-1:14415] Signal code: Address not mapped (1)
+[node-1:14415] Failing at address: 0x7ffbe5f6a900
+[node-1:14415] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fa359f40f10]
+[node-1:14415] [ 1] ./main_openmp(+0x10dd)[0x564fc094e0dd]
+[node-1:14415] [ 2] ./main_openmp(+0x12e6)[0x564fc094e2e6]
+[node-1:14415] [ 3] ./main_openmp(+0x1631)[0x564fc094e631]
+[node-1:14415] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fa359f23c87]
+[node-1:14415] [ 5] ./main_openmp(+0xb1a)[0x564fc094db1a]
+[node-1:14415] *** End of error message ***
+[node-3:20339] *** Process received signal ***
+[node-3:20339] Signal: Segmentation fault (11)
+[node-3:20339] Signal code: Address not mapped (1)
+[node-3:20339] Failing at address: 0x7ffeb7507240
+[node-4:05984] *** Process received signal ***
+[node-4:05984] Signal: Segmentation fault (11)
+[node-4:05984] Signal code: Address not mapped (1)
+[node-4:05984] Failing at address: 0x7ffdec1a6a70
+[node-3:20339] [ 0] [node-2:31505] *** Process received signal ***
+[node-2:31505] Signal: Segmentation fault (11)
+[node-2:31505] Signal code: Address not mapped (1)
+[node-2:31505] Failing at address: 0x7ffd7eeb8f70
+[node-4:05984] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fed707d3f10]
+[node-4:05984] [ 1] ./main_openmp(+0x10dd)[0x55b70c0200dd]
+[node-4:05984] [ 2] ./main_openmp(+0x12e6/lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fea610bcf10]
+[node-2:31505] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f4e890e8f10]
+[node-2:31505] [ 1] ./main_openmp(+0x10dd)[0x56551a8140dd]
+[node-5:13829] *** Process received signal ***
+[node-5:13829] Signal: Segmentation fault (11)
+[node-5:13829] Signal code: Address not mapped (1)
+[node-5:13829] Failing at address: 0x7ffeb253f2a0
+[node-3:20339] [node-2:31505] [ 2] ./main_openmp(+0x12e6)[0x56551a8142e6]
+[node-2:31505] [ 3] ./main_openmp(+0x1631)[0x56551a814631]
+[node-2:31505] [ 4] [node-5:13829] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f4b5ee21f10]
+[node-5:13829] [ 1] ./main_openmp(+0x10dd)[0x55c0e43c20dd]
+[node-5:13829] [ 2] ./main_openmp(+0x12e6)[0x55c0e43c22e6]
+[node-5:13829] [ 3] ./main_openmp(+0x1631)[0x55c0e43c2631]
+)[0x55b70c0202e6]
+[node-4:05984] [ 3] ./main_openmp(+0x1631)[0x55b70c020631]
+[node-4:05984] [ 4] [ 1] ./main_openmp(+0x10dd)[0x555996a620dd]
+[node-3:20339] [ 2] ./main_openmp(+0x12e6)[0x555996a622e6]
+[node-3:20339] [ 3] ./main_openmp(+0x1631)[0x555996a62631]
+[node-3:20339] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fea6109fc87]
+[node-3:20339] [ 5] ./main_openmp(+0x/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4e890cbc87]
+[node-2:31505] [ 5] ./main_openmp(+0xb1a)[0x56551a813b1a]
+[node-2:31505] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fed707b6c87]
+[node-4:05984] [ 5] ./main_openmp(+0xb1a)[0x55b70c01fb1a]
+[node-4:05984] *** End of error message ***
+b1a)[0x555996a61b1a]
+[node-3:20339] *** End of error message ***
+[node-5:13829] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f4b5ee04c87]
+[node-5:13829] [ 5] ./main_openmp(+0xb1a)[0x55c0e43c1b1a]
+[node-5:13829] *** End of error message ***
+[node-6:00570] *** Process received signal ***
+[node-6:00570] Signal: Segmentation fault (11)
+[node-6:00570] Signal code: Address not mapped (1)
+[node-6:00570] Failing at address: 0x7ffb8e2dd9e0
+[node-7:23238] *** Process received signal ***
+[node-7:23238] Signal: Segmentation fault (11)
+[node-7:23238] Signal code: Address not mapped (1)
+[node-7:23238] Failing at address: 0x7ffc45526570
+[node-6:00570] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f83e365cf10]
+[node-6:00570] [ 1] ./main_openmp(+0x10dd)[0x559b331700dd]
+[node-6:00570] [ 2] ./main_openmp(+0x12e6)[0x559b331702e6]
+[node-6:00570] [ 3] ./main_openmp(+0x1631)[0x559b33170631]
+[node-6:00570] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f83e363fc87]
+[node-6:00570] [ 5] ./main_openmp(+0xb1a)[0x559b3316fb1a]
+[node-6:00570] *** End of error message ***
+[node-7:23238] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f6c5556ff10]
+[node-7:23238] [ 1] ./main_openmp(+0x10dd)[0x55f80d6020dd]
+[node-7:23238] [ 2] ./main_openmp(+0x12e6)[0x55f80d6022e6]
+[node-7:23238] [ 3] ./main_openmp(+0x1631)[0x55f80d602631]
+[node-7:23238] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6c55552c87]
+[node-7:23238] [ 5] ./main_openmp(+0xb1a)[0x55f80d601b1a]
+[node-7:23238] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

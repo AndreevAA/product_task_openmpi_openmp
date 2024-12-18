@@ -1,0 +1,36 @@
+[node-3:23540] *** Process received signal ***
+[node-3:23540] Signal: Segmentation fault (11)
+[node-3:23540] Signal code:  (128)
+[node-3:23540] Failing at address: (nil)
+[node-3:23540] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f410a63af10]
+[node-3:23540] [ 1] ./main_openmp(+0x10dd)[0x55892e90d0dd]
+[node-3:23540] [ 2] ./main_openmp(+0x12e6)[0x55892e90d2e6]
+[node-3:23540] [ 3] ./main_openmp(+0x1631)[0x55892e90d631]
+[node-3:23540] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f410a61dc87]
+[node-3:23540] [ 5] ./main_openmp(+0xb1a)[0x55892e90cb1a]
+[node-3:23540] *** End of error message ***
+[node-4:09725] *** Process received signal ***
+[node-4:09725] Signal: Segmentation fault (11)
+[node-4:09725] Signal code: Address not mapped (1)
+[node-4:09725] Failing at address: 0x7fff0567ce10
+[node-4:09725] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb5ba643f10]
+[node-5:17450] *** Process received signal ***
+[node-5:17450] Signal: Segmentation fault (11)
+[node-5:17450] Signal code:  (128)
+[node-5:17450] Failing at address: (nil)
+[node-4:09725] [ 1] ./main_openmp(+0x10dd)[0x55730c4660dd]
+[node-4:09725] [ 2] ./main_openmp(+0x12e6)[0x55730c4662e6[node-5:17450] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8a3a01ef10]
+[node-5:17450] [ 1] ./main_openmp(+0x10dd)[0x5561e1cc30dd]
+[node-5:17450] [ 2] ./main_openmp(+0x12e6)[0x5561e1cc32e6]
+[node-5:17450] [ 3] ]
+[node-4:09725] [ 3] ./main_openmp(+0x1631)[0x55730c466631]
+[node-4:09725] [ 4] ./main_openmp(+0x1631)[0x5561e1cc3631]
+[node-5:17450] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8a3a001c87]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb5ba626c87]
+[node-4:09725] [ 5] ./main_openmp(+0xb1a)[0x55730c465b1a]
+[node-4:09725] *** End of error message ***
+[node-5:17450] [ 5] ./main_openmp(+0xb1a)[0x5561e1cc2b1a]
+[node-5:17450] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 9725 on node node-4 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

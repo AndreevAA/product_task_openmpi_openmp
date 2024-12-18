@@ -1,0 +1,47 @@
+[node-5:07175] *** Process received signal ***
+[node-5:07175] Signal: Segmentation fault (11)
+[node-5:07175] Signal code:  (128)
+[node-5:07175] Failing at address: (nil)
+[node-5:07175] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ffa772d5f10]
+[node-5:07175] [ 1] ./main(+0x10ad)[0x55ab7766d0ad]
+[node-5:07175] [ 2] ./main(+0x12b6)[0x55ab7766d2b6]
+[node-5:07175] [ 3] ./main(+0x1601)[0x55ab7766d601]
+[node-5:07175] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ffa772b8c87]
+[node-5:07175] [ 5] ./main(+0xb1a)[0x55ab7766cb1a]
+[node-5:07175] *** End of error message ***
+[node-10:16517] *** Process received signal ***
+[node-10:16517] Signal: Segmentation fault (11)
+[node-10:16517] Signal code:  (128)
+[node-10:16517] Failing at address: (nil)
+[node-10:16517] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f920d392f10]
+[node-10:16517] [ 1] ./main(+0x10ad)[0x55f5aa8930ad]
+[node-10:16517] [ 2] ./main(+0x12b6)[0x55f5aa8932b6]
+[node-10:16517] [ 3] ./main(+0x1601)[0x55f5aa893601]
+[node-10:16517] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f920d375c87]
+[node-10:16517] [ 5] ./main(+0xb1a)[0x55f5aa892b1a]
+[node-10:16517] *** End of error message ***
+[node-7:17748] *** Process received signal ***
+[node-7:17748] Signal: Segmentation fault (11)
+[node-7:17748] Signal code: Address not mapped (1)
+[node-7:17748] Failing at address: 0x7fffadfdaf60
+[node-7:17748] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f034d315f10]
+[node-7:17748] [ 1] ./main(+0x10ad)[0x5563c9cc00ad]
+[node-9:31861] *** Process received signal ***
+[node-9:31861] Signal: Segmentation fault (11)
+[node-9:31861] Signal code:  (128)
+[node-9:31861] Failing at address: (nil)
+[node-7:17748] [ 2] ./main(+0x12b6)[0x5563c9cc02b6]
+[node-7:17748] [ 3] ./main(+0x1601)[0x5563c9cc0601]
+[node-7:17748] [ 4] [node-9:31861] [ 0] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f034d2f8c87]
+[node-7:17748] [ 5] ./main(+0xb1a)[0x5563c9cbfb1a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f9826b97f10]
+[node-9:31861] [ 1] ./main(+0x10ad)[0x55b270d5f0ad]
+[node-9:31861] [ 2] ./main(+0x12b6)[0x55b270d5f2b6]
+[node-9:31861] [ 3] ./main(+0x1601)[0x55b270d5f601]
+[node-9:31861] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f9826b7ac87]
+[node-7:17748] *** End of error message ***
+[node-9:31861] [ 5] ./main(+0xb1a)[0x55b270d5eb1a]
+[node-9:31861] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 17748 on node node-7 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

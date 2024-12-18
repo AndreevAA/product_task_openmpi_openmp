@@ -1,0 +1,14 @@
+[node-8:18525] *** Process received signal ***
+[node-8:18525] Signal: Segmentation fault (11)
+[node-8:18525] Signal code: Address not mapped (1)
+[node-8:18525] Failing at address: 0x7ffd998f1340
+[node-8:18525] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f6005950f10]
+[node-8:18525] [ 1] ./main_openmp(+0x10dd)[0x56253adbe0dd]
+[node-8:18525] [ 2] ./main_openmp(+0x12e6)[0x56253adbe2e6]
+[node-8:18525] [ 3] ./main_openmp(+0x1631)[0x56253adbe631]
+[node-8:18525] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f6005933c87]
+[node-8:18525] [ 5] ./main_openmp(+0xb1a)[0x56253adbdb1a]
+[node-8:18525] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 18525 on node node-8 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

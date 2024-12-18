@@ -1,0 +1,36 @@
+[node-1:08385] *** Process received signal ***
+[node-1:08385] Signal: Segmentation fault (11)
+[node-1:08385] Signal code: Address not mapped (1)
+[node-1:08385] Failing at address: 0x7ffe2676feb0
+[node-1:08385] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f04a048cf10]
+[node-1:08385] [ 1] ./main(+0x10ad)[0x555ba6e630ad]
+[node-1:08385] [ 2] ./main(+0x12b6)[0x555ba6e632b6]
+[node-1:08385] [ 3] ./main(+0x1601)[0x555ba6e63601]
+[node-1:08385] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f04a046fc87]
+[node-1:08385] [ 5] ./main(+0xb1a)[0x555ba6e62b1a]
+[node-1:08385] *** End of error message ***
+[node-2:25768] *** Process received signal ***
+[node-2:25768] Signal: Segmentation fault (11)
+[node-2:25768] Signal code: Address not mapped (1)
+[node-2:25768] Failing at address: 0x7ffd3eb0d580
+[node-2:25768] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f10d5fb8f10]
+[node-2:25768] [ 1] ./main(+0x10ad)[0x561d6bb290ad]
+[node-2:25768] [ 2] ./main(+0x12b6)[0x561d6bb292b6]
+[node-2:25768] [ 3] ./main(+0x1601)[0x561d6bb29601]
+[node-2:25768] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f10d5f9bc87]
+[node-2:25768] [ 5] ./main(+0xb1a)[0x561d6bb28b1a]
+[node-3:15147] *** Process received signal ***
+[node-3:15147] Signal: Segmentation fault (11)
+[node-3:15147] Signal code: Address not mapped (1)
+[node-3:15147] Failing at address: 0x7ffd743cdea0
+[node-2:25768] *** End of error message ***
+[node-3:15147] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f7854f07f10]
+[node-3:15147] [ 1] ./main(+0x10ad)[0x55a36e25c0ad]
+[node-3:15147] [ 2] ./main(+0x12b6)[0x55a36e25c2b6]
+[node-3:15147] [ 3] ./main(+0x1601)[0x55a36e25c601]
+[node-3:15147] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7854eeac87]
+[node-3:15147] [ 5] ./main(+0xb1a)[0x55a36e25bb1a]
+[node-3:15147] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

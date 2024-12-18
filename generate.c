@@ -35,12 +35,12 @@ int main() {
     srand(time(NULL));
 
     int left = 200;
-    int right = 20000;
+    int right = 200000;
     int num_products_list[50];
-    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8}; // Процессы для тестирования
+    int num_processes_list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Процессы для тестирования
     int num_products_count = 0;
 
-    int step = (right - left) / 20;
+    int step = (right - left) / 10;
     while (left <= right) {
         num_products_list[num_products_count] = left;
 	num_products_count += 1;

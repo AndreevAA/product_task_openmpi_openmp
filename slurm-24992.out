@@ -1,0 +1,36 @@
+[node-4:09038] *** Process received signal ***
+[node-4:09038] Signal: Segmentation fault (11)
+[node-4:09038] Signal code:  (128)
+[node-4:09038] Failing at address: (nil)
+[node-4:09038] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7efed15bff10]
+[node-4:09038] [ 1] ./main(+0x10ad)[0x558b699650ad]
+[node-4:09038] [ 2] ./main(+0x12b6)[0x558b699652b6]
+[node-4:09038] [ 3] ./main(+0x1601)[0x558b69965601]
+[node-4:09038] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7efed15a2c87]
+[node-4:09038] [ 5] ./main(+0xb1a)[0x558b69964b1a]
+[node-4:09038] *** End of error message ***
+[node-5:16780] *** Process received signal ***
+[node-5:16780] Signal: Segmentation fault (11)
+[node-5:16780] Signal code: Address not mapped (1)
+[node-5:16780] Failing at address: 0x7fffc1c329a0
+[node-5:16780] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f80b5c0ff10]
+[node-5:16780] [ 1] ./main(+0x10ad)[0x5581314980ad]
+[node-5:16780] [ 2] ./main(+0x12b6)[0x5581314982b6]
+[node-5:16780] [ 3] ./main(+0x1601)[0x558131498601]
+[node-5:16780] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f80b5bf2c87]
+[node-5:16780] [ 5] ./main(+0xb1a)[0x558131497b1a]
+[node-5:16780] *** End of error message ***
+[node-6:03183] *** Process received signal ***
+[node-6:03183] Signal: Segmentation fault (11)
+[node-6:03183] Signal code: Address not mapped (1)
+[node-6:03183] Failing at address: 0x7ffdfa88d070
+[node-6:03183] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ffbdc51ef10]
+[node-6:03183] [ 1] ./main(+0x10ad)[0x55ec31c420ad]
+[node-6:03183] [ 2] ./main(+0x12b6)[0x55ec31c422b6]
+[node-6:03183] [ 3] ./main(+0x1601)[0x55ec31c42601]
+[node-6:03183] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ffbdc501c87]
+[node-6:03183] [ 5] ./main(+0xb1a)[0x55ec31c41b1a]
+[node-6:03183] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 3183 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+[node-10:17380] *** Process received signal ***
+[node-10:17380] Signal: Segmentation fault (11)
+[node-10:17380] Signal code: Address not mapped (1)
+[node-10:17380] Failing at address: 0x7ffbfa87b8b0
+[node-10:17380] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f889ac7ff10]
+[node-10:17380] [ 1] ./main_openmp(+0x10dd)[0x56148d5040dd]
+[node-10:17380] [ 2] ./main_openmp(+0x12e6)[0x56148d5042e6]
+[node-10:17380] [ 3] ./main_openmp(+0x1631)[0x56148d504631]
+[node-10:17380] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f889ac62c87]
+[node-10:17380] [ 5] ./main_openmp(+0xb1a)[0x56148d503b1a]
+[node-10:17380] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 17380 on node node-10 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

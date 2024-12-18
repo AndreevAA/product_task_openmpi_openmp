@@ -1,0 +1,26 @@
+[node-4:04130] *** Process received signal ***
+[node-4:04130] Signal: Segmentation fault (11)
+[node-4:04130] Signal code: Address not mapped (1)
+[node-4:04130] Failing at address: 0x7fffa9633360
+[node-7:21875] *** Process received signal ***
+[node-7:21875] Signal: Segmentation fault (11)
+[node-7:21875] Signal code: Address not mapped (1)
+[node-7:21875] Failing at address: 0x7fffbab0e9a0
+[node-6:31393] *** Process received signal ***
+[node-6:31393] Signal: Segmentation fault (11)
+[node-6:31393] Signal code: Address not mapped (1)
+[node-6:31393] Failing at address: 0x7ffd391980b0
+[node-5:11976] *** Process received signal ***
+[node-5:11976] Signal: Segmentation fault (11)
+[node-5:11976] Signal code: Address not mapped (1)
+[node-5:11976] Failing at address: 0x7ffea9f58510
+[node-5:11976] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f02eab20f10]
+[node-5:11976] [ 1] ./main_openmp(+0x10dd)[0x5626d39a30dd]
+[node-5:11976] [ 2] ./main_openmp(+0x12e6)[0x5626d39a32e6]
+[node-5:11976] [ 3] ./main_openmp(+0x1631)[0x5626d39a3631]
+[node-5:11976] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f02eab03c87]
+[node-5:11976] [ 5] ./main_openmp(+0xb1a)[0x5626d39a2b1a]
+[node-5:11976] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 11976 on node node-5 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

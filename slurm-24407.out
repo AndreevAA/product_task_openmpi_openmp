@@ -1,0 +1,36 @@
+[node-7:12631] *** Process received signal ***
+[node-7:12631] Signal: Segmentation fault (11)
+[node-7:12631] Signal code:  (128)
+[node-7:12631] Failing at address: (nil)
+[node-7:12631] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8c46dfdf10]
+[node-7:12631] [ 1] ./main_openmp(+0x10dd)[0x555974d470dd]
+[node-7:12631] [ 2] ./main_openmp(+0x12e6)[0x555974d472e6]
+[node-7:12631] [ 3] ./main_openmp(+0x1631)[0x555974d47631]
+[node-7:12631] [ 4] [node-9:31266] *** Process received signal ***
+[node-9:31266] Signal: Segmentation fault (11)
+[node-9:31266] Signal code:  (128)
+[node-9:31266] Failing at address: (nil)
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8c46de0c87]
+[node-7:12631] [ 5] ./main_openmp(+0xb1a)[0x555974d46b1a]
+[node-7:12631] *** End of error message ***
+[node-8:09317] *** Process received signal ***
+[node-8:09317] Signal: Segmentation fault (11)
+[node-8:09317] Signal code: Address not mapped (1)
+[node-8:09317] Failing at address: 0x7ffe67bef470
+[node-8:09317] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f659a1cbf10]
+[node-8:09317] [ 1] ./main_openmp(+0x10dd)[0x5619bbddc0dd]
+[node-8:09317] [ 2] ./main_openmp(+0x12e6)[0x5619bbddc2e6]
+[node-8:09317] [ 3] ./main_openmp(+0x1631)[0x5619bbddc631]
+[node-8:09317] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f659a1aec87]
+[node-8:09317] [ 5] ./main_openmp(+0xb1a)[0x5619bbddbb1a]
+[node-8:09317] *** End of error message ***
+[node-9:31266] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f07e6bf3f10]
+[node-9:31266] [ 1] ./main_openmp(+0x10dd)[0x56191a7710dd]
+[node-9:31266] [ 2] ./main_openmp(+0x12e6)[0x56191a7712e6]
+[node-9:31266] [ 3] ./main_openmp(+0x1631)[0x56191a771631]
+[node-9:31266] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f07e6bd6c87]
+[node-9:31266] [ 5] ./main_openmp(+0xb1a)[0x56191a770b1a]
+[node-9:31266] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 9317 on node node-8 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

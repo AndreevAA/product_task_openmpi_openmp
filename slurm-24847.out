@@ -1,0 +1,25 @@
+[node-9:32691] *** Process received signal ***
+[node-9:32691] Signal: Segmentation fault (11)
+[node-9:32691] Signal code:  (128)
+[node-9:32691] Failing at address: (nil)
+[node-9:32691] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ff8f1b4ef10]
+[node-9:32691] [ 1] ./main_openmp(+0x10dd)[0x558a4d4460dd]
+[node-9:32691] [ 2] ./main_openmp(+0x12e6)[0x558a4d4462e6]
+[node-9:32691] [ 3] ./main_openmp(+0x1631)[0x558a4d446631]
+[node-9:32691] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff8f1b31c87]
+[node-9:32691] [ 5] ./main_openmp(+0xb1a)[0x558a4d445b1a]
+[node-9:32691] *** End of error message ***
+[node-10:17045] *** Process received signal ***
+[node-10:17045] Signal: Segmentation fault (11)
+[node-10:17045] Signal code:  (128)
+[node-10:17045] Failing at address: (nil)
+[node-10:17045] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fd8fd0bcf10]
+[node-10:17045] [ 1] ./main_openmp(+0x10dd)[0x55ed24b1e0dd]
+[node-10:17045] [ 2] ./main_openmp(+0x12e6)[0x55ed24b1e2e6]
+[node-10:17045] [ 3] ./main_openmp(+0x1631)[0x55ed24b1e631]
+[node-10:17045] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd8fd09fc87]
+[node-10:17045] [ 5] ./main_openmp(+0xb1a)[0x55ed24b1db1a]
+[node-10:17045] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-9 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

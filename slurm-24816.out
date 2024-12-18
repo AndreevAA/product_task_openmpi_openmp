@@ -1,0 +1,36 @@
+[node-5:11584] *** Process received signal ***
+[node-5:11584] Signal: Segmentation fault (11)
+[node-5:11584] Signal code: Address not mapped (1)
+[node-5:11584] Failing at address: 0x7ffa3fdd8c90
+[node-5:11584] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f26f2d33f10]
+[node-5:11584] [ 1] ./main(+0x10ad)[0x556a8cde20ad]
+[node-5:11584] [ 2] ./main(+0x12b6)[0x556a8cde22b6]
+[node-5:11584] [ 3] ./main(+0x1601)[0x556a8cde2601]
+[node-5:11584] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f26f2d16c87]
+[node-5:11584] [ 5] ./main(+0xb1a)[0x556a8cde1b1a]
+[node-5:11584] *** End of error message ***
+[node-6:31017] *** Process received signal ***
+[node-6:31017] Signal: Segmentation fault (11)
+[node-6:31017] Signal code: Address not mapped (1)
+[node-6:31017] Failing at address: 0x7ffa4694c060
+[node-6:31017] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f63b8655f10]
+[node-6:31017] [ 1] ./main(+0x10ad)[0x55649746e0ad]
+[node-6:31017] [ 2] ./main(+0x12b6)[0x55649746e2b6]
+[node-6:31017] [ 3] ./main(+0x1601)[0x55649746e601]
+[node-6:31017] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f63b8638c87]
+[node-6:31017] [ 5] ./main(+0xb1a)[0x55649746db1a]
+[node-6:31017] *** End of error message ***
+[node-7:21565] *** Process received signal ***
+[node-7:21565] Signal: Segmentation fault (11)
+[node-7:21565] Signal code: Address not mapped (1)
+[node-7:21565] Failing at address: 0x7ffa954f03b0
+[node-7:21565] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f579ebd1f10]
+[node-7:21565] [ 1] ./main(+0x10ad)[0x5556378390ad]
+[node-7:21565] [ 2] ./main(+0x12b6)[0x5556378392b6]
+[node-7:21565] [ 3] ./main(+0x1601)[0x555637839601]
+[node-7:21565] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f579ebb4c87]
+[node-7:21565] [ 5] ./main(+0xb1a)[0x555637838b1a]
+[node-7:21565] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 31017 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

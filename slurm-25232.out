@@ -1,0 +1,69 @@
+[node-1:24460] *** Process received signal ***
+[node-1:24460] Signal: Segmentation fault (11)
+[node-1:24460] Signal code: Address not mapped (1)
+[node-1:24460] Failing at address: 0x7ffe4114b050
+[node-1:24460] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f1313f3cf10]
+[node-1:24460] [ 1] ./main_openmp(+0x10dd)[0x55dd597e40dd]
+[node-1:24460] [ 2] ./main_openmp(+0x12e6)[0x55dd597e42e6]
+[node-1:24460] [ 3] ./main_openmp(+0x1631)[0x55dd597e4631]
+[node-1:24460] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1313f1fc87]
+[node-1:24460] [ 5] ./main_openmp(+0xb1a)[0x55dd597e3b1a]
+[node-1:24460] *** End of error message ***
+[node-6:09814] *** Process received signal ***
+[node-6:09814] Signal: Segmentation fault (11)
+[node-6:09814] Signal code: Address not mapped (1)
+[node-6:09814] Failing at address: 0x7fff309d50f0
+[node-6:09814] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f1d12f5ef10]
+[node-6:09814] [ 1] ./main_openmp(+0x10dd)[0x557024e6f0dd]
+[node-6:09814] [ 2] ./main_openmp(+0x12e6)[0x557024e6f2e6]
+[node-6:09814] [ 3] ./main_openmp(+0x1631)[0x557024e6f631]
+[node-6:09814] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1d12f41c87]
+[node-6:09814] [ 5] ./main_openmp(+0xb1a)[0x557024e6eb1a]
+[node-6:09814] *** End of error message ***
+[node-2:09276] *** Process received signal ***
+[node-2:09276] Signal: Segmentation fault (11)
+[node-2:09276] Signal code: Address not mapped (1)
+[node-2:09276] Failing at address: 0x7ffe5c033b90
+[node-2:09276] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f1bda06df10]
+[node-2:09276] [ 1] ./main_openmp(+0x10dd)[0x5642c33120dd]
+[node-2:09276] [ 2] ./main_openmp(+0x12e6)[0x5642c33122e6]
+[node-2:09276] [ 3] ./main_openmp(+0x1631)[0x5642c3312631]
+[node-2:09276] [node-4:16352] *** Process received signal ***
+[node-4:16352] Signal: Segmentation fault (11)
+[node-4:16352] Signal code: Address not mapped (1)
+[node-4:16352] Failing at address: 0x7ffe2966d470
+[ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f1bda050c87]
+[node-2:09276] [ 5] ./main_openmp(+0x[node-4:16352] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8cba863f10]
+[node-4:16352] [ 1] ./main_openmp(+0x10dd)[0x55e9b2a530dd]
+[node-4:16352] [ 2] ./main_openmp(+0xb1a)[0x5642c3311b1a]
+[node-2:09276] *** End of error message ***
+12e6)[0x55e9b2a532e6]
+[node-4:16352] [ 3] ./main_openmp(+0x1631)[0x[node-3:29404] *** Process received signal ***
+[node-3:29404] Signal: Segmentation fault (11)
+[node-3:29404] Signal code: Address not mapped (1)
+[node-3:29404] Failing at address: 0x7fffd12b6620
+55e9b2a53631]
+[node-4:16352] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8cba846c87]
+[node-4:16352] [ 5] ./main_openmp(+0xb1a)[0x55e9b2a52b1a]
+[node-4:16352] *** End of error message ***
+[node-3:29404] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f7a08e53f10]
+[node-3:29404] [ 1] ./main_openmp(+0x10dd)[0x55c0b74bd0dd]
+[node-3:29404] [ 2] ./main_openmp(+0x12e6)[0x55c0b74bd2e6]
+[node-3:29404] [ 3] ./main_openmp(+0x1631)[0x55c0b74bd631]
+[node-3:29404] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7a08e36c87]
+[node-3:29404] [ 5] ./main_openmp(+0xb1a[node-5:23963] *** Process received signal ***
+[node-5:23963] Signal: Segmentation fault (11)
+[node-5:23963] Signal code: Address not mapped (1)
+[node-5:23963] Failing at address: 0x7ffed094be70
+)[0x55c0b74bcb1a]
+[node-3:29404] *** End of error message ***
+[node-5:23963] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f7bf664ef10]
+[node-5:23963] [ 1] ./main_openmp(+0x10dd)[0x55985ff270dd]
+[node-5:23963] [ 2] ./main_openmp(+0x12e6)[0x55985ff272e6]
+[node-5:23963] [ 3] ./main_openmp(+0x1631)[0x55985ff27631]
+[node-5:23963] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f7bf6631c87]
+[node-5:23963] [ 5] ./main_openmp(+0xb1a)[0x55985ff26b1a]
+[node-5:23963] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 5 with PID 9814 on node node-6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

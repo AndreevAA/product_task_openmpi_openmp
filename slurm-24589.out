@@ -1,0 +1,36 @@
+[node-1:07118] *** Process received signal ***
+[node-1:07118] Signal: Segmentation fault (11)
+[node-1:07118] Signal code:  (128)
+[node-1:07118] Failing at address: (nil)
+[node-1:07118] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7ff043218f10]
+[node-1:07118] [ 1] ./main(+0x10ad)[0x55ea1c4ee0ad]
+[node-1:07118] [ 2] ./main(+0x12b6)[0x55ea1c4ee2b6]
+[node-1:07118] [ 3] ./main(+0x1601)[0x55ea1c4ee601]
+[node-1:07118] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7ff0431fbc87]
+[node-1:07118] [ 5] ./main(+0xb1a)[0x55ea1c4edb1a]
+[node-1:07118] *** End of error message ***
+[node-3:14108] *** Process received signal ***
+[node-3:14108] Signal: Segmentation fault (11)
+[node-3:14108] Signal code: Address not mapped (1)
+[node-3:14108] Failing at address: 0x7ffee15f2e60
+[node-2:24570] *** Process received signal ***
+[node-2:24570] Signal: Segmentation fault (11)
+[node-2:24570] Signal code: Address not mapped (1)
+[node-2:24570] Failing at address: 0x7ffd8750fd20
+[node-3:14108] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f8ce0bcdf10]
+[node-3:14108] [ 1] ./main(+0x10ad)[0x55e7682590ad]
+[node-3:14108] [ 2] ./main(+0x12b6)[0x55e7682592b6]
+[node-3:14108] [ 3] ./main(+0x1601)[0x55e768259601]
+[node-2:24570] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f92863bff10]
+[node-2:24570] [ 1] ./main(+0x10ad)[0x5567ae3120ad[node-3:14108] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f8ce0bb0c87]
+]
+[node-2:24570] [ 2] ./main(+0x12b6)[node-3:14108] [ 5] ./main(+0xb1a[0x5567ae3122b6]
+[node-2:24570] [ 3] ./main(+0x1601)[0x5567ae312601]
+[node-2:24570] [ 4] )[0x55e768258b1a]
+[node-3:14108] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f92863a2c87]
+[node-2:24570] [ 5] ./main(+0xb1a)[0x5567ae311b1a]
+[node-2:24570] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-1 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
