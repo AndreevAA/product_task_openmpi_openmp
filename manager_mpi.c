@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <time.h>
-#include <omp.h>
+
 
 void create_sbatch_script(int num_processes, const char *input_file) {
     FILE *script_file = fopen("tempjob.sh", "w");
@@ -21,7 +21,7 @@ void create_sbatch_script(int num_processes, const char *input_file) {
     fprintf(script_file, "\n");
     
     // Используем snprintf для создания команды
-    fprintf(script_file, "mpirun -np %d ./main_openmp %s\n", num_processes, input_file);
+    fprintf(script_file, "mpirun -np %d ./main_mpi  %s\n", num_processes, input_file);
     
     fclose(script_file);
 
@@ -33,7 +33,7 @@ void create_sbatch_script(int num_processes, const char *input_file) {
 }
 
 void run_experiment(int *num_products_list, int num_products_count, int *num_processes_list, int num_processes_count) {
-    FILE *result_file = fopen("experiment_results_openmp.txt", "w");
+    FILE *result_file = fopen("experiment_results_openmpi.txt", "w");
     if (result_file == NULL) {
         perror("Cannot open results file");
         exit(EXIT_FAILURE);
@@ -48,7 +48,7 @@ void run_experiment(int *num_products_list, int num_products_count, int *num_pro
         // Запуск программы на 1 процессе для получения времени T1
         double start_time_1 = MPI_Wtime();
         char command[100];
-    //    snprintf(command, sizeof(command), "mpirun -np 1 ./main_openmp %s", input_file);
+//        snprintf(command, sizeof(command), "mpirun -np 1 ./main %s", input_file);
   //      system(command);
         double end_time_1 = MPI_Wtime();
         double T1;// = end_time_1 - start_time_1;
@@ -66,9 +66,9 @@ void run_experiment(int *num_products_list, int num_products_count, int *num_pro
 
             double S = (Tp > 0) ? T1 / Tp : 0;
             double E = (num_processes > 0) ? S / num_processes : 0;
-            if (i == 0) {
-                T1 = Tp;
-	    }
+        if (i == 0) {
+             T1 = Tp;
+        }
             fprintf(result_file, "%d %d %lf %lf %lf\n", num_products, num_processes, Tp, S, E);
         }
     }

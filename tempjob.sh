@@ -6,4 +6,4 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=1992
 
-mpirun -np 8 ./main  input_200000.txt
+mpirun -np 8 ./main_mpi  input_200000.txt
